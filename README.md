@@ -2,6 +2,9 @@
 
 A basic command line interface for sending emails with [Nodemailer](https://nodemailer.com/).
 
+[![npm version](https://img.shields.io/npm/v/nodemailer-bash)](https://www.npmjs.com/package/nodemailer-bash)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Installation
 
     npm install -g nodemailer-bash

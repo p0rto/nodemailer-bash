@@ -19,7 +19,7 @@
     "node"
   ],
   "author": "Gabriel Romualdo Pôrto <gabrielporto1903@gmail.com>",
-  "repository": "git://github.com/p0rto/cli-nodemailer",
+  "repository": "git://github.com/p0rto/nodemailer-bash",
   "license": "MIT",
   "dependencies": {
     "commander": "^6.1.0",
