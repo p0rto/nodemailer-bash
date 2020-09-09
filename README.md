@@ -1,10 +1,10 @@
-# cli-nodemailer
+# nodemailer-bash
 
 A basic command line interface for sending emails with [Nodemailer](https://nodemailer.com/).
 
 ## Installation
 
-    npm install -g cli-nodemailer
+    npm install -g nodemailer-bash
     
 ## Getting started
 
