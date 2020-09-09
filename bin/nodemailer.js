@@ -9,15 +9,15 @@ const index = require('../src/index');
 program
   .version('v'+pkg.version+' | '+'nodemailer v'+nodemailerPkg.version)
   .usage('<from> <to> [options]')
-  .option('-h, --host <host>', 'The SMTP host.')
-  .option('-r, --port <port>', 'The port to use when contacting the SMTP server (default 587)', 587)
-  .option('-s, --secure', 'True for 465, false for other ports (default false)', false)
-  .option('-u, --user <user>', 'The SMTP username to use when authenticating')
-  .option('-p, --pass <pass>', 'The plain-text password to use when authenticating')
-  .option('-j, --subject <subject>', 'The string to be used as the emails subject')
-  .option('-g, --text <text>', 'The plaintext message body')
-  .option('-t, --html <html>', 'The html version of text message body')
-  .option('--attachments <name, file...>', 'Add attachment')
+  .option('-h, --host <host>', 'the SMTP host')
+  .option('-r, --port <port>', 'the port to use when contacting the SMTP server', 587)
+  .option('-s, --secure', 'true for 465, false for other ports', false)
+  .option('-u, --user <user>', 'the SMTP username to use when authenticating')
+  .option('-p, --pass <pass>', 'the plain-text password to use when authenticating')
+  .option('-j, --subject <subject>', 'the string to be used as the emails subject')
+  .option('-t, --text <text>', 'the plaintext message body')
+  .option('-m, --html <html>', 'the html version of text message body')
+  .option('--attachments <name, file...>', 'add attachment')
   .parse(process.argv);
 
 index.cli(program.opts(), program.args);
